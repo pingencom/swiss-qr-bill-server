@@ -1,0 +1,482 @@
+@page {
+    size: 21cm 29.7cm;
+    margin: 46mm 20mm 43mm 25mm;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 21cm;
+}
+
+.invoice table {
+    padding-bottom: 10mm;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    width: 165mm;
+}
+
+th {
+    font-weight: 500;
+    padding: 0;
+}
+
+td {
+    padding: 0;
+}
+
+p {
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: -31mm;
+    width: 100%;
+}
+
+header .logo {
+    position: relative;
+    top: 0;
+    max-height: 12mm;
+    float:left;
+}
+
+header .logo img {
+    max-height: 11.9mm;
+    max-width: 100%;
+}
+
+header .company-details {
+    float:left;
+    padding-left: 1mm;
+    position: absolute;
+    top: -1mm;
+}
+
+footer {
+    width: 100%;
+    height: 20mm;
+    position: fixed;
+    bottom: -22.5mm;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer .logo {
+    position: absolute;
+    right: -11mm;
+    bottom: 10mm;
+}
+
+.footer .logo img {
+    max-height: 31mm;
+}
+
+.footer .text-block {
+    width: 115mm;
+    position: absolute;
+    bottom: 8mm;
+    left: 0;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.font-regular {
+    font-family: 'Roboto-regular', sans-serif;
+    font-weight: 400;
+}
+
+.font-medium {
+    font-family: 'Roboto-medium', sans-serif;
+    font-weight: 500;
+}
+
+.font-semi-bold {
+    font-family: 'Roboto-medium', sans-serif;
+    font-weight: 600;
+}
+
+.font-bold {
+    font-family: 'Roboto-bold', sans-serif;
+    font-weight: 700;
+}
+
+.font-size-6pt {
+    font-size: 6pt;
+}
+
+.font-size-8pt {
+    font-size: 8pt;
+}
+
+.font-size-10pt {
+    font-size: 10pt;
+}
+
+.font-size-11pt {
+    font-size: 11pt;
+}
+
+.font-size-15pt {
+    font-size: 15pt;
+}
+
+.font-color {
+    color: #9fa4bb;
+}
+
+.d-inline {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-hide {
+    visibility: hidden;
+}
+
+p {
+    margin: 0;
+    line-height: 7.7pt;
+}
+
+.pt-1 {
+    padding-top: 1mm;
+}
+
+.pt-15 {
+    padding-top: 1.5mm;
+}
+
+.pt-2 {
+    padding-top: 2mm;
+}
+
+.pt-3 {
+    padding-top: 3mm;
+}
+
+.pb-1 {
+    padding-bottom: 1mm;
+}
+
+.pb-15 {
+    padding-bottom: 1.5mm;
+}
+
+.pb-2 {
+    padding-bottom: 2mm;
+}
+
+.pb-3 {
+    padding-bottom: 3mm;
+}
+
+.pb-6 {
+    padding-bottom: 6mm;
+}
+
+.pl-1 {
+    padding-left: 1mm;
+}
+
+.mt-1 {
+    margin-top: 1mm;
+}
+
+.mt-2 {
+    margin-top: 2mm;
+}
+
+.mt-3 {
+    margin-top: 3mm;
+}
+
+.mt-4 {
+    margin-top: 4mm;
+}
+
+.ml-3 {
+    margin-left: 3mm;
+}
+
+.mb-1 {
+    margin-bottom: 1mm;
+}
+
+.mb-4 {
+    margin-bottom: 4mm;
+}
+
+.w-35 {
+    width: 35mm;
+}
+
+.w-38 {
+    width: 38mm;
+}
+
+.w-46 {
+    width: 46mm;
+}
+
+.w-51 {
+    width: 51mm;
+}
+
+.w-78 {
+    width: 78mm;
+}
+
+.w-98 {
+    width: 98.8mm;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-4 {
+    height: 4mm;
+}
+
+.h-17 {
+    height: 17mm;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.line-height-6 {
+    line-height: 6pt;
+}
+
+.line-height-7 {
+    line-height: 7.1pt;
+}
+
+.line-height-8 {
+    line-height: 8pt;
+}
+
+.container {
+    max-width: 165mm;
+}
+
+.information {
+    height: 17mm;
+}
+
+.information .invoice {
+    float: left;
+    position: relative;
+    width: 66mm;
+}
+
+.information .invoice-details {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40mm;
+}
+
+.information .user-organisation {
+    float: left;
+}
+
+.title {
+    margin-top: 16.4mm;
+}
+
+.title .organisation {
+    margin-top: 1.7mm;
+}
+
+.table {
+    margin-top: 6mm;
+}
+
+.tbody tr:nth-child(1) td {
+    padding-top: 2mm;
+}
+
+.border-top {
+    border-top: 1px solid rgba(159, 164, 187, 0.25);
+}
+
+.border-top-normal {
+    border-top: .3mm solid rgba(221, 223, 231, 0.5);
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(159, 164, 187, 0.25);
+}
+
+.border-bottom-normal {
+    border-bottom: 0.3mm solid rgba(221, 223, 231, 0.5);
+}
+
+.border-right {
+    border-right: 1px solid rgba(159, 164, 187, 0.25);
+}
+
+.border-right-normal {
+    border-right: 0.3mm solid rgba(221, 223, 231, 0.5);
+}
+
+.border-left {
+    border-left: 1px solid rgba(159, 164, 187, 0.25);
+}
+
+.background-color {
+    background-color: rgba(159, 164, 187, 0.1);
+}
+
+.information-box {
+    margin-top: 9mm;
+    padding: 4mm;
+    background-color: rgba(159, 164, 187, 0.1);
+    border-radius: 10px;
+}
+
+.bank-transfer-details {
+    margin-top: 11mm;
+    padding: 4mm;
+    background-color: rgba(159, 164, 187, 0.1);
+    border-radius: 10px;
+}
+
+.usage-box-info {
+    padding: 2mm 3mm;
+    background-color: rgba(159, 164, 187, 0.1);
+    border-radius: 10px;
+    width: 49mm;
+    position: absolute;
+    top: 0;
+    right: 0;
+    float:right;
+}
+
+.service {
+    text-transform: capitalize;
+}
+
+.empty-row {
+    padding-top: 9mm;
+}
+
+.empty-block {
+    display: block;
+    width: 18.5cm;
+    height: 67mm;
+}
+
+.qr-code {
+    position: absolute;
+    display: block;
+    width: 21cm;
+    height: 104mm;
+    bottom: -37mm;
+    left: -25mm;
+    background-size: cover;
+}
+
+.qr-code .main-block {
+    width: 100%;
+    padding-left: 5mm;
+    padding-top: 8.2mm;
+    display: inline-block;
+}
+
+.qr-code .left-side {
+    width: 57mm;
+    display: block;
+    float: left;
+}
+
+.qr-code .left-side .summary {
+    margin-top: 12mm;
+}
+
+.qr-code .left-side .summary .currency {
+    vertical-align: top;
+    width: 21mm;
+}
+
+.qr-code .left-side .summary .amount {
+    width: 35mm;
+    vertical-align: top;
+}
+
+.qr-code .left-side .acceptance {
+    padding-right: 2.3mm;
+    margin-top: 6.5mm;
+    padding-top: 0;
+    vertical-align: top;
+}
+
+.qr-code .right-side {
+    width: 100%;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.qr-code .right-side .qr-block {
+    margin-left: 2mm;
+}
+
+.qr-code .right-side .qr-block .qr-code-img {
+    margin-top: 4mm;
+    width: 52mm;
+    height: 52mm;
+}
+
+.qr-code .right-side .qr-block .qr-code-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.qr-code .right-side .qr-block .summary {
+    margin-top: 3mm;
+}
+
+.qr-code .right-side .qr-block .summary .currency {
+    vertical-align: top;
+    width: 21mm;
+}
+
+.qr-code .right-side .qr-block .summary .amount {
+    width: 25mm;
+    vertical-align: top;
+}
+
+.qr-code .right-side .information-block {
+    position: absolute;
+    left: 56mm;
+    top: 1.5mm;
+}
+
+.qr-code .right-side .information-block p {
+    line-height: 8.4pt;
+}

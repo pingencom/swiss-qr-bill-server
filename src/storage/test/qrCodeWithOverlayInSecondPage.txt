@@ -1,0 +1,62 @@
+Test pdf page 1
+
+Payments ...
+
+Test pdf page 2
+
+Receipt
+
+Payment part
+
+Account / Payable to
+
+CH56 0483 5012 3456 7800 9
+Test Name Creditor
+Test Street Creditor 70
+8005 Zürich
+
+Account / Payable to
+
+CH56 0483 5012 3456 7800 9
+Test Name Creditor
+Test Street Creditor 70
+8005 Zürich
+Additional information
+
+Payable by
+
+TestPaymentId123
+
+Test Name Debitor
+Test Street Debitor 70
+8005 Zürich
+
+Payable by
+
+Test Name Debitor
+Test Street Debitor 70
+8005 Zürich
+
+Currency
+
+Amount
+
+Currency
+
+Amount
+
+CHF
+
+100.12
+
+CHF
+
+100.12
+
+Acceptance point
+
+Test pdf page 3
+
+Test pdf page 4
+
+

@@ -1,0 +1,169 @@
+@import '~bootstrap/scss/bootstrap';
+
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0758FF;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.width-1020 {
+    max-width: 1020px;
+}
+
+.color-gray-800 {
+    color: $gray-800
+}
+
+.color-gray-700 {
+    color: $gray-700;
+}
+
+.text-field {
+    background-color: #fff;
+    width: 100%;
+    height: 45px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.text-field-input {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px 1px 1px 1px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 1px solid #cfcece;
+}
+
+.text-field-input:focus {
+    outline: 0;
+}
+
+.text-field .text-field-label {
+    color:#707070;
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    font-family: 'Roboto', sans-serif;
+    cursor: text;
+    transition: 0.15s all;
+    pointer-events: none;
+}
+
+.text-field.field-active .text-field-label, .text-field.filled .text-field-label {
+    top: 2px;
+    font-size: 13px;
+    transform: translateY(15px, -20%);
+    transition: 0.15s all;
+}
+
+.invalid .text-field-input {
+    border-bottom: 1px solid #FB4F50;
+}
+
+.text-field-validation {
+    color: #FB4F50;
+    font-size: 13px;
+    padding: 2px 0 2px 0;
+    display: none;
+}
+
+.invalid + .text-field-validation {
+    display: block;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 14px 52px;
+    border: 2px solid #0758FF;
+    border-radius: 30px;
+    background-color: #0758FF;
+    color: #fff;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #f5f7ff;
+    color: #0758FF;
+    border: 2px solid #0758FF;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.button a {
+    color: #fff;
+}
+
+.button:hover a {
+    color: #0758FF;
+}
+
+.form-button {
+    margin-top: 30px;
+}
+
+.pdf-info {
+    display: none;
+}
+
+.pdf-info.error .text-field-validation {
+    display: block;
+}
+
+.pdf-info.error {
+    display: block;
+    color: #FB4F50;
+    font-size: 13px;
+}
+
+.dropzone-wrapper {
+    border: 2px dashed $gray-300;
+    color: $gray-500;
+    height: 100px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.dropzone,
+.dropzone:focus {
+    position: absolute;
+    outline: none !important;
+    width: 100%;
+    height: 150px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.dropzone-wrapper:hover,
+.dropzone-wrapper.dragover {
+    background: #ecf0f5;
+}
